@@ -1,0 +1,164 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 40px 100px;
+}
+
+.resume-container {
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: rgb(54, 199, 204);
+    box-shadow: 0 0 20px #3f3d3d;
+    padding: 25px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.resume-heading {
+    font-size: 40px;
+    text-align: center;
+
+
+}
+
+
+
+.form-fieldset {
+    border: 1px solid black;
+}
+
+.Information-heading {
+    font-size: 25px;
+    margin-bottom: 5px;
+
+}
+
+.Personal-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 18px;
+    box-shadow: 0px 0px 20px 2px rgba(43, 42, 42, 0.84);
+}
+
+.info-1 {
+    display: block;
+}
+
+.info-2 {
+    display: block;
+}
+
+.info-3 {
+    display: block;
+}
+
+
+legend {
+    font-size: 25px;
+}
+
+.education {
+    display: block;
+    font-size: 18px;
+    box-shadow: 0px 0px 20px 2px rgba(43, 42, 42, 0.84);
+
+
+}
+
+.education-textarea {
+
+    resize: none;
+    width: 100%;
+}
+
+
+.experience {
+    display: block;
+    font-size: 18px;
+    box-shadow: 0px 0px 20px 2px rgba(43, 42, 42, 0.84);
+
+}
+
+.experience-textarea {
+    resize: none;
+    width: 98%;
+}
+
+.skills {
+    display: block;
+    font-size: 18px;
+    box-shadow: 0px 0px 20px 2px rgba(43, 42, 42, 0.84);
+
+}
+
+.skills-textarea {
+    resize: none;
+    width: 100%;
+}
+
+.btn {
+    padding: 15px;
+    font-size: 20px;
+    box-shadow: 0px 0px 20px 2px rgba(43, 42, 42, 0.84);
+
+}
+
+.btn:hover {
+    background-color: #645f5f;
+}
+
+
+.resume-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid skyblue;
+    border-radius: 8px;
+    background-color: bisque;
+}
+
+.resume-display h2 {
+    color: black;
+}
+
+.dynamic-edit {
+    margin-top: 50px;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: rgb(54, 199, 204);
+    box-shadow: 0 0 20px #3f3d3d;
+    padding: 25px;
+
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.dynamic-info {
+    display: flex;
+    align-content: flex-start;
+}
+
+.dynamic-edu h3,
+p {
+    display: inline;
+}
+
+.dynamic-exp h3,
+p {
+    display: inline;
+}
+
+.dynamic-skills h3,
+p {
+    display: inline;
+}

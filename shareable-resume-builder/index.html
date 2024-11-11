@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Resume Builder</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="resume-container">
+        <h1 class="resume-heading"><b> Dynamic Resume Builder</b></h1>
+        <br>
+        <br>
+        <form class="form">
+            <fieldset class="form-fieldset">
+                <legend class="Information-heading"> <b>Personal Information:</b> </legend>
+                <div class="Personal-info">
+                    <label class="info-1" for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                    <label class="info-2" for="number">Number:</label>
+                    <input type="number" id="number" name="number" placeholder="Enter your phone number" required>
+
+                    <label class="info-3" for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+                </div>
+            </fieldset>
+
+            <fieldset class="form-fieldset">
+                <legend><b>Education:</b> </legend>
+                <label class="education" for="education">Education:</label>
+                <textarea class=" education-textarea" name="education" id="education" rows="15" required></textarea>
+            </fieldset>
+
+            <fieldset class="form-fieldset">
+                <legend><b>Experience:</b> </legend>
+                <label class="experience" for="experience">Experience:</label>
+                <textarea class=" experience-textarea" name="experience" id="experience" rows="15" required></textarea>
+            </fieldset>
+
+
+            <fieldset class="form-fieldset">
+                <legend><b>Skills:</b> </legend>
+                <label class="skills" for="skills">Skills:</label>
+                <textarea class=" skills-textarea" name="skills" id="skills" rows="15" required></textarea>
+            </fieldset>
+
+            <button type="submit" class="btn">Create Resume</button>
+        </form>
+
+    </div>
+
+    </div>
+
+    <div id="resumeDisplay"> </div>
+
+
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
